@@ -24,12 +24,15 @@
     <span style="top: 30%" class="text">New Year</span>
     <span style="top: 40%" class="text">2022</span>
     <audio id="audio" src="music.mp3" webkit-playsinline="true"
-    playsinline="true" autoplay='true'></audio>
+    playsinline="true" autoplay='true'  style="position: absolute; bottom: 60px"></audio>
     <div class="para">
         Wishing you all love,joy and peace in the year ahead.
     </div>
     <div class="name">it's McKey</div>
 </body>
-<script src="script.js"></script>
+<script >
+     let music = document.getElementById("audio");
+    music.play();
+    </script>
 
 </html>
